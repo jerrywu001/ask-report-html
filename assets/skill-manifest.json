@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "archiveSha256": "4e26cdd98c3518c24e72d7aef341f17ac674252c0fd763a7a1e1fb7f6e1ffcc0",
+  "treeHash": "dbd7f36f8efa92a30844a8bc4ecdfaed8c8a11ce4c8d8b3b1d8e173c9f5b94f2",
+  "files": {
+    "INSTALL.md": "f84d08f0281e112599ab44cf2f34755113b6878a5a989c09c254969b05cd368c",
+    "LICENSE": "752a1a34b40ae8e64e86f546ec699a691aff573179e1f96997e82757b2ee5d3f",
+    "SKILL.md": "d958f04cd426a859ef993546af3e1d310b3d3ded0f0f5ef489a4557780764d97",
+    "auto-report.json": "2ef5d7888e88d9b366f1e91c2afd04c4e1faa1b471e8e116f05cb81a683aa071",
+    "project.json": "a9286c160f7cc9d732ee03ac48b3e7bb4475f7ce8bb0845105102596c236a6b6",
+    "references/agent-rule.md": "81435fe9acb63cc4aa1137ddc309cc8fd322a15f4989b4f9ceb71c5720d5e716",
+    "references/answer-mode.md": "e4c8c3b40a10bc6498d3b89c401d57651d9045633076344800fea51954b727c3",
+    "references/settings.md": "d548f7989a65772359597230b0bd45ef11c1fb79d77116ed4a34b51c70a5811b",
+    "references/task-report.md": "4b8561dcd5bda705f5a71aea8a011506e06caee204105dcab516559018d1e4ba",
+    "references/video.md": "9a869a9d4c017b323e3cc691b5deb1bd3d31034ca39c47d435ac631651f8daf4",
+    "scripts/am.mjs": "f36356d4850f04540352733df30b47fff224ee806f67ca255fb81ecb2e0e8b55",
+    "scripts/render.mjs": "03a63300b00d6cd6aba579b57babb3bdf9edcc50a50f7a10b48897c56545028f"
+  }
+}

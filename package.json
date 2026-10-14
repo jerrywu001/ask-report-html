@@ -1,0 +1,49 @@
+{
+  "name": "askreport",
+  "version": "0.2.0",
+  "description": "HTML answers when you ask. HTML reports when agents finish. A local, cross-agent installer.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrywu001/ask-report-html.git"
+  },
+  "homepage": "https://github.com/jerrywu001/ask-report-html#readme",
+  "bugs": {
+    "url": "https://github.com/jerrywu001/ask-report-html/issues"
+  },
+  "keywords": ["html", "report", "skills", "cli", "coding-agents"],
+  "files": [
+    "bin/",
+    "src/",
+    "web/",
+    "assets/ask-report-html-skill.zip",
+    "assets/skill-manifest.json",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "askreport": "bin/ask-report-html.mjs"
+  },
+  "scripts": {
+    "start": "node bin/ask-report-html.mjs web",
+    "configure": "node bin/ask-report-html.mjs configure",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "test:package": "node scripts/check-package.mjs",
+    "check:release": "node scripts/check-release.mjs",
+    "build": "node scripts/package-skill.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2"
+  }
+}

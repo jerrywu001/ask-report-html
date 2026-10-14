@@ -1,0 +1,6 @@
+# Keep source and the bundled archive identical on Windows autocrlf checkouts.
+* text=auto eol=lf
+*.zip binary
+*.png binary
+# Preserve the upstream generated renderer byte-for-byte; its whitespace is not authored here.
+skills/ask-report-html/scripts/am.mjs -whitespace
